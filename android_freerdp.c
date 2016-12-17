@@ -44,9 +44,6 @@ extern void endSession(void*);
 void *g_Client = 0;
 int g_Instance = 0;
 
-//Polycom
-//POLYCOM end
-
 int android_context_new(freerdp* instance, rdpContext* context)
 {
 	rdpLog(UtilLogLevelDebug, "RDP:android_context_new - Create channels");
